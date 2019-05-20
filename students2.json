@@ -1,0 +1,24 @@
+{
+	"data": [
+	
+	{
+		"name" : "Nancy",
+		"major": "CS",
+		"id" : "10011007"
+	},
+	{
+		"name" : "Carlos",
+		"major": "CS",
+		"id" : "941011"
+	},
+	{
+		"name" : "Blanca",
+		"major": "IE",
+		"id" : "941077"
+	},
+	{
+		"name" : "Pedro",
+		"major": "Mkt",
+		"id" : "941041"
+	}]
+}
