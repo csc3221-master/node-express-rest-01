@@ -6,11 +6,11 @@ var app = express();
 var fs = require("fs");
 
 // Support json enconded bodies
-app.use(bodyParser.json());    
-// Support encoded bodies    
+app.use(bodyParser.json());
+// Support encoded bodies
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.post('/addStudent', function (request, response) {
+app.post('/student', function (request, response) {
   var filename = __dirname + "/" + "students2.json";
   var jsonData;
   var newStudent;

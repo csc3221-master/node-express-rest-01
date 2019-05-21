@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var fs = require("fs");
 
-app.get('/listStudents', function (req, res) {
+app.get('/students', function (req, res) {
    fs.readFile( __dirname + "/" + "students.json", 'utf8', function (err, data) {
        console.log( data );
        res.end( data );

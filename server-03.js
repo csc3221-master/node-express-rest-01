@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var fs = require("fs");
 
-app.get('/:position', function (request, response) {
+app.get('/students/:position', function (request, response) {
    // First read existing students.
    fs.readFile( __dirname + "/" + "students2.json", 'utf8', function (err, data) {
       var students = JSON.parse( data );
